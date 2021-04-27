@@ -5,6 +5,7 @@ Feature: Test the login functionality of Vishnu
 
 # A feature may have different scenarios
 
+@smokeTests
 Scenario: User logins with valid credentials
 
 Given User is on the Login page

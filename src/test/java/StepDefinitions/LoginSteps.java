@@ -44,6 +44,7 @@ public class LoginSteps {
 		
 		String text = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/h1[1]")).getText();
 		Assert.assertTrue(text.contains("Welcome to Vishnu"));
+		driver.close();
 		
 	}
 	
